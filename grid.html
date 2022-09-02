@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 150px);
+            grid-gap: 40px 10px;
+        }
+
+        .grid-cell {
+            border: 1px solid blue;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr) 2fr;
+            grid-gap: 20px;
+        }
+
+        .grid {
+            border: 2px solid grey;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Grid </h1>
+    <div class="grid-container">
+        <div class="grid-cell">cell 1</div>
+        <div class="grid-cell">cell 2</div>
+        <div class="grid-cell">cell 3</div>
+        <div class="grid-cell">cell 4</div>
+        <div class="grid-cell">cell 5</div>
+        <div class="grid-cell">cell 6</div>
+        <div class="grid-cell">cell 7</div>
+        <div class="grid-cell">cell 8</div>
+        <div class="grid-cell">cell 9</div>
+        <div class="grid-cell">cell 10</div>
+        <div class="grid-cell">cell 11</div>
+        <div class="grid-cell">cell 12</div>
+    </div>
+    <div class="container">
+        <div class="grid">cell--1</div>
+        <div class="grid">cell--2</div>
+        <div class="grid">cell--3</div>
+        <div class="grid">cell--4</div>
+        <div class="grid">cell--5</div>
+        <div class="grid">cell--6</div>
+        <div class="grid">cell--7</div>
+        <div class="grid">cell--8</div>
+        <div class="grid">cell--9</div>
+        <div class="grid">cell--10</div>
+        <div class="grid">cell--11</div>
+        <div class="grid">cell--12</div>
+    </div>
+</body>
+
+</html>

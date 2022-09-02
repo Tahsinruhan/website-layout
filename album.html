@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-frame {
+            width: 400px;
+            height: 270px;
+            border: 3px solid brown;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 15px;
+            overflow: hidden;
+        }
+
+        .photo img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .photo-details {
+            display: none;
+            position: absolute;
+            width: 400px;
+            top: 160px;
+
+        }
+
+        .photo-details h2 {
+            background-color: black;
+            color: aquamarine;
+            text-align: center;
+        }
+
+        .photo-frame:hover .photo-details {
+            display: block;
+            background-color: rgba(255, 228, 196, 0.278);
+        }
+
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .photo-frame:hover .photo {
+            transform: scale(1.5) skew(180deg);
+            transition: transform 2s ease-in;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>PHOTO ALBUM</h1>
+    <section>
+        <h2>
+            tiger mama
+        </h2>
+        <div class="photo-album">
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="pexels-pixabay-46251.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h2>tiger</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem tempora, est laboriosam
+                        fugiat veniam magni doloribus sapiente quas? Quo ea quos tempore facere corporis perspiciatis
+                        vitae unde? Vitae, similique doloribus.
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="pexels-pixabay-46251.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h2>tiger</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem tempora, est laboriosam
+                        fugiat veniam magni doloribus sapiente quas? Quo ea quos tempore facere corporis perspiciatis
+                        vitae unde? Vitae, similique doloribus.
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="pexels-pixabay-46251.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h2>tiger</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem tempora, est laboriosam
+                        fugiat veniam magni doloribus sapiente quas? Quo ea quos tempore facere corporis perspiciatis
+                        vitae unde? Vitae, similique doloribus.
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="pexels-pixabay-46251.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h2>tiger</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem tempora, est laboriosam
+                        fugiat veniam magni doloribus sapiente quas? Quo ea quos tempore facere corporis perspiciatis
+                        vitae unde? Vitae, similique doloribus.
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="pexels-pixabay-46251.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h2>tiger</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem tempora, est laboriosam
+                        fugiat veniam magni doloribus sapiente quas? Quo ea quos tempore facere corporis perspiciatis
+                        vitae unde? Vitae, similique doloribus.
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="pexels-pixabay-46251.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h2>tiger</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem tempora, est laboriosam
+                        fugiat veniam magni doloribus sapiente quas? Quo ea quos tempore facere corporis perspiciatis
+                        vitae unde? Vitae, similique doloribus.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
